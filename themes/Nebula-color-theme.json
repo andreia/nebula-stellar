@@ -1,5 +1,6 @@
 {
 	"name": "Nebula Stellar",
+	"type": "dark",
 	"colors": {
 		"editor.background": "#121826",
 		"editor.foreground": "#d4d4d4",
@@ -15,8 +16,8 @@
 		"editorGroupHeader.tabsBackground": "#222e48",
 		"titleBar.activeBackground": "#121826",
 		"editor.selectionBackground": "#ff5e99",
-		"editor.selectionHighlightBackground": "#ffffff",
 		"statusBar.background": "#121826",
+		"editor.selectionForeground": "#ffffff"
 	},
 	"tokenColors": [
 		{
@@ -105,15 +106,6 @@
 			}
 		},
 		{
-			"name": "PHP return keyword",
-			"scope": [
-				"keyword.control.return.php"
-			],
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
 			"name": "PHP main color",
 			"scope": [
 				"punctuation.section.embedded.begin.php",
@@ -145,7 +137,7 @@
 			}
 		},
 		{
-			"name": "PHP type hints, return types",
+			"name": "PHP type hints",
 			"scope": [
 				"keyword.other.type.php",
 				"storage.type.php"
