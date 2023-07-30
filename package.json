@@ -1,0 +1,40 @@
+{
+  "name": "nebula-stellar",
+  "displayName": "Nebula Stellar",
+  "description": "Nebula Stellar dark theme",
+  "version": "0.0.1",
+  "publisher": "andreia",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "img/nebula.png",
+  "author": {
+    "name": "Andreia Bohner",
+    "email": "andreiabohner@gmail.com",
+    "url": "https://andreiabohner.org"
+  },
+  "repository": {
+    "url": "https://github.com/andreia/nebula-stellar.git",
+    "type": "git"
+  },
+  "keywords": [
+    "nebula",
+    "stellar",
+    "nebula stellar",
+    "dark",
+    "theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nebula Stellar",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nebula-color-theme.json"
+      }
+    ]
+  }
+}
